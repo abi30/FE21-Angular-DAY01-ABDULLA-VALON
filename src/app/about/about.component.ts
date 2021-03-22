@@ -28,7 +28,12 @@ export class AboutComponent implements OnInit {
 
   }
 
+  learn_more():string{
+    return`<p>hello</p>`;
+  }
+
   ngOnInit(): void {
   }
 
 }
+
